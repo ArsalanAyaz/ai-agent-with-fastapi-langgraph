@@ -22,7 +22,7 @@ MODEL_NAMES = {
 selected_model = st.selectbox("Choose Model", MODEL_NAMES[provider])
 
 # Web Search Toggle
-allow_web_search = st.checkbox("🔍 Enable Web Search")
+allow_web_search = st.checkbox("🔍 Enable Web Search only with Gemini")
 
 # User Query Input
 st.subheader("💬 Ask Your Question")
